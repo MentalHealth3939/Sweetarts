@@ -491,3 +491,43 @@ body{
     }
 
   }
+
+  @media (max-width: 450px) {
+
+    .top-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-logo{
+        margin-top: 1rem;
+        position:initial;
+        width: 12rem;
+        background-image: url('logo_2.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .header-nav li {
+        font-size: .9rem;
+        margin: 0px 1rem;
+    }
+
+    .header-navigation{
+        margin: 0px;
+        height: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-input, .email-subscription-input{
+        margin-top: 1rem;
+        width: 100%;
+        font-size: .8rem;
+    }
+
+  }
