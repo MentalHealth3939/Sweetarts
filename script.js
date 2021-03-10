@@ -23,7 +23,6 @@ featureBlocks.forEach(item => {
         item.classList.toggle('hover')
 
         let textChildren = item.children[0].children
-        console.log(textChildren)
 
         for (let item of textChildren) {
             item.classList.toggle('hover')
@@ -34,7 +33,6 @@ featureBlocks.forEach(item => {
         item.classList.toggle('hover')
 
         let textChildren = item.children[0].children
-        console.log(textChildren)
 
         for (let item of textChildren) {
             item.classList.toggle('hover')
