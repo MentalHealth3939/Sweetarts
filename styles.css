@@ -515,6 +515,19 @@ body{
         row-gap: 0.5rem;
     }
 
+  }
+
+  @media (max-width: 1100px) {
+
+    .top-trending-recipe-text{
+        font-size: 5.5vw;
+    }
+
+    .top-trending-recipe-text:first-child::before{
+        font-size: 3vw;
+        left: initial;
+        right: -25%;
+    }
 
   }
 
