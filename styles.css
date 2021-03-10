@@ -530,4 +530,48 @@ body{
         font-size: .8rem;
     }
 
+    .container{
+        padding-top: 2rem;
+        height: auto;
+        width: 90vw;
+        margin:auto;
+    }
+
+    .top-trending {
+        height: 10rem;
+       /* margin-top: 2rem;
+        height: 26rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;*/
+    }
+
+    .top-trending-recipe-text{
+        font-size: 1.5rem;
+       /* color: black;
+        background-color: #FFB5A5;
+        padding: 0px 10px;
+        font-family: Alatsi;
+        font-size: 1rem;
+        position: relative;*/
+    }
+
+    .top-trending-recipe-text:first-child::before{
+        font-size: 0.6em;
+        left: initial;
+        right: -25%;
+        /*
+        font-family: 'Alegreya Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        position: absolute;
+        left: 50%;
+        top: -1.5em;
+        content: 'Top trending now';
+        transform: translateX(-50%);*/
+    }
+
   }
