@@ -402,6 +402,7 @@ body{
     margin-left: 2rem;
     cursor: pointer;
 }
+
 .footer-info{
     width: 100%;
     display: flex;
@@ -621,6 +622,55 @@ body{
         background-size:cover;
         background-repeat: no-repeat;
         background-position: center;
+    }
+
+    .email-subscription h3{
+        font-size: 2em;
+    }
+
+    .email-subscription div{
+        font-size: 1em;
+    }
+
+    .form-group{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-input, .email-subscription-input{
+        font-size: 1.2em;
+        width: 15rem;
+    }
+
+    .footer-logo{
+        height: 5rem;
+        width: auto;
+        margin-left: initial;
+        cursor: pointer;
+    }
+
+    .bottom-footer{
+        padding: 0.2rem;
+    }
+
+    .footer-menu{
+        font-size: 0.7em;
+        margin-right: 0.2rem;
+        margin-top: 0.5rem;
+    }
+
+    .contact-info p{
+        font-size: 1em;
+    }
+    
+    .footer-icon{
+        margin: 1em;
+    }
+
+    .contact-icons img{
+        height: 2em;
     }
 
   }
