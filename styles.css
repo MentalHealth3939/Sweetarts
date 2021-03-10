@@ -494,6 +494,30 @@ body{
 
   }
 
+  @media (max-width: 1145px) {
+
+    .container{
+        padding-top: 2rem;
+        height: auto;
+        width: 90vw;
+        margin: 0px auto;
+        overflow: hidden;
+    }
+
+    .recipe-picture-container{
+        width: 20vw;
+        height: 20vw;
+        overflow: hidden;
+    }
+
+    .entries{
+        column-gap: 0.5rem;
+        row-gap: 0.5rem;
+    }
+
+
+  }
+
   @media (max-width: 450px) {
 
     .top-header{
